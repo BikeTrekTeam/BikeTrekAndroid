@@ -17,13 +17,29 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name=".User_profile"
             android:label="@string/title_activity_user_profile" >
-=======
+        </activity>
+        <activity
+
             android:name=".NewsActivity"
             android:label="@string/title_activity_news" >
->>>>>>> fb9c105fdb73742fab6b49c7e13a22ca92d2c2ad
+        </activity>
+        <activity
+            android:name=".SignInPage"
+            android:label="@string/title_activity_sign_in_page"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme.NoActionBar" >
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news" >
+        <activity
+            android:name=".TrainingActivity"
+            android:label="@string/title_activity_training" >
+
         </activity>
     </application>
 
