@@ -17,7 +17,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".User_profile"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
 
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
             android:name=".SignInPage"
             android:label="@string/title_activity_sign_in_page"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -28,7 +36,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
             android:name=".NewsActivity"
             android:label="@string/title_activity_news" >
-
+        <activity
             android:name=".TrainingActivity"
             android:label="@string/title_activity_training" >
 
