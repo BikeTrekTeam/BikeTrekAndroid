@@ -4,9 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_user_profile">User_profile</string>
-    <string name="title_activity_news">NewsActivity</string>
-
-    <string name="title_activity_sign_in_page">SignInPage</string>
     <string name="title_activity_sign_in">SignInActivity</string>
     <string name="title_activity_news">NewsActivity</string>
 
