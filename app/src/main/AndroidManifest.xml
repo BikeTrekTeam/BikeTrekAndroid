@@ -17,8 +17,13 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".User_profile"
             android:label="@string/title_activity_user_profile" >
+=======
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news" >
+>>>>>>> fb9c105fdb73742fab6b49c7e13a22ca92d2c2ad
         </activity>
     </application>
 

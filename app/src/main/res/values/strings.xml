@@ -3,5 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
     <string name="title_activity_user_profile">User_profile</string>
+=======
+    <string name="title_activity_news">NewsActivity</string>
+>>>>>>> fb9c105fdb73742fab6b49c7e13a22ca92d2c2ad
 </resources>
