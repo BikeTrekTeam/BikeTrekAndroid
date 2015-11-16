@@ -10,5 +10,6 @@
     <string name="title_activity_training">TrainingActivity</string>
 
     <string name='facebook_app_id'>804080389714727</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
