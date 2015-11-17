@@ -1,5 +1,7 @@
 package com.biketrekteam.biketrekandroid;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.widget.ImageView;
 
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.CallbackManager;
@@ -77,6 +80,17 @@ public class SignInActivity extends AppCompatActivity {
                 alertDialog.setTitle("Error:");
                 alertDialog.setMessage(exception.getMessage());
                 alertDialog.show();
+            }
+        });
+
+        ImageView img = (ImageView)findViewById(R.id.imageView2);
+        img.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("http://bcla.convio.net/site/TR/Events/General?pg=entry&fr_id=1060"));
+                startActivity(intent);
             }
         });
 
