@@ -1,6 +1,6 @@
 # Android Studios
 .gradle
-/.idea
+/.idea/
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
