@@ -1,6 +1,6 @@
 # Android Studios
 .gradle
-/.idea/
+/.idea/*
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
@@ -10,7 +10,7 @@
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
-*.iml
+*/*.iml
 
 ## Directory-based project format:
 .idea/
